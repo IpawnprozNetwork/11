@@ -1,0 +1,34 @@
+/* src/styles/Wallet.css */
+.wallet {
+  text-align: center;
+  color: white;
+  padding: 20px;
+}
+
+.wallet h1 {
+  font-size: 3rem;
+}
+
+.wallet p {
+  font-size: 1.5rem;
+}
+
+.wallet button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.wallet button:hover {
+  background-color: #45a049;
+}
+
+.wallet img {
+  width: 480px;
+  height: 480px;
+  margin: 20px 0;
+}

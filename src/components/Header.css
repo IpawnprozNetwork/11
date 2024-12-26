@@ -1,0 +1,15 @@
+/* src/components/Header.css */
+header {
+  background-color: #222;
+  padding: 10px 20px;
+}
+
+header .logo {
+  width: 100px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}

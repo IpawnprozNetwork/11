@@ -1,0 +1,69 @@
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: transparent;
+  position: relative;
+  z-index: 1;
+}
+
+/* Logo styling */
+.logo {
+  max-width: 150px;
+}
+
+/* Navigation styling */
+nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* Social icon styling */
+.social-icon {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.social-icon:hover {
+  opacity: 0.7;
+}
+
+/* Background video styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: transparent;
+  overflow: hidden;
+}
+
+.hero-section video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.hero-section h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3rem;
+  text-align: center;
+  z-index: 2;
+}

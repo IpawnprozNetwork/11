@@ -1,0 +1,19 @@
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYW9pdXV2b2Rld3V5a2ZhZGJuaHpseTl3d2VuZHZkMTV6djJuOHRsaSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/KilTDfUC5pmI2HQX3J/giphy.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hero-section h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-weight: bold;
+  text-align: center;
+}
